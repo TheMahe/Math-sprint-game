@@ -1,3 +1,8 @@
+/**
+ * Shuffles the elements of an array in place.
+ * @param {Array} array - The array to be shuffled.
+ * @returns {Array} - The shuffled array.
+ */
 function shuffle(array) {
     let currentIndex = array.length;
     let temporaryValue;
