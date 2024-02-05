@@ -176,6 +176,9 @@ function getRandomInt(max) {
 }
 
 // Create Correct/Incorrect Random Equations
+/**
+ * Generates a set of equations with a random number of correct and wrong equations.
+ */
 function createEquations() {
   // Randomly choose how many correct equations there should be
   const correctEquations = getRandomInt(questionAmount);
